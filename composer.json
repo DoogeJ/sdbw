@@ -1,0 +1,22 @@
+{
+    "name": "doogej/sdbw",
+    "description": "SDBW - Simple database wrapper",
+    "keywords": ["sdbw", "pdo", "mysql"],
+    "license": "CC BY-SA 4.0",
+    "authors": [
+        {
+            "name": "Jaap-Willem Dooge",
+            "email": "Jaap-Willem.Dooge@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/DoogeJ/sdbw",
+    "support": {
+        "issues": "https://github.com/DoogeJ/sdbw/issues?state=open",
+        "source": "https://github.com/DoogeJ/sdbw"
+    },
+    "require": {
+        "ext-pdo": "*",
+        "php": ">=5.4.0"
+    }
+}
