@@ -45,7 +45,7 @@ class SDBW {
     private $tablePrefix = '';
 
     function __construct($hostname, $database, $username, $password) {
-        $this->db_conn = new PDO('mysql:host=' . $hostname . ';dbname=' . $database . ';charset=utf8', $username, $password);
+        $this->db_conn = new PDO("mysql:host={$hostname}; dbname={$database}; charset=utf8", $username, $password);
     }
 
     // method for select queries
